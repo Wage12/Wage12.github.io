@@ -808,13 +808,13 @@ function saveEvents() {
 }
 
 //function to get events from local storage
-function getEvents() {
-  if (localStorage.getItem("events") !== null) {
-    const storedEvents = JSON.parse(localStorage.getItem("events"));
-    console.log('Stored events:', storedEvents);
-    eventsArr.push(...storedEvents);
-  }
-}
+//function getEvents() {
+  //if (localStorage.getItem("events") !== null) {
+   // const storedEvents = JSON.parse(localStorage.getItem("events"));
+    //console.log('Stored events:', storedEvents);
+   // eventsArr.push(...storedEvents);
+  //}
+//}
 
 
 function convertTime(time) {
