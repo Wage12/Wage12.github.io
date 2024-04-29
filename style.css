@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  /*color: #4e1b7e;*/
+  color: #4e1b7e;
   border-radius: 5px;
   background-color: #fff;
   --sausis-bg: #ffc0cb;
@@ -69,10 +69,6 @@ body {
   --lapkritis-bg: #c0c0c0;
   --gruodis-bg: #9400d3;
   
-}
-.calendar .Sausis {
-  /* other styles */
-  background-color: var(--sausis-bg);
 }
 .calendar .Vasaris {
   background-image: url(https://prekesbiurui.lt/wp-content/uploads/2018/02/0-1-500x281.jpg);
@@ -100,29 +96,6 @@ body {
   background-size: 1000px 600px; /* This will make the image cover the entire element */
   background-position: center center;
   color: #542172;
-}
-.calendar .Birželis {
-  background-color: var(--birželis-bg);
-  color: #ffffff;
-}
-.calendar .Liepa {
-  background-color: var(--liepa-bg);
-  color: #4e1b7e;
-}
-.calendar .Rugpjūtis {
-  background-color: var(--rugpjūtis-bg);
-}
-.calendar .Rugsėjis {
-  background-color: var(--rugsėjis-bg);
-}
-.calendar .Spalis {
-  background-color: var(--spalis-bg);
-}
-.calendar .Lapkritis {
-  background-color: var(--lapkritis-bg);
-}
-.calendar .Gruodis {
-  background-color: var(--gruodis-bg);
 }
 /* set after behind the main element */
 .calendar::before,
